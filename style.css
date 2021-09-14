@@ -46,6 +46,15 @@ a{
     text-decoration-line: none;
 }
 
+img{
+    transition: 0.2s;
+}
+
+img:hover{
+    background-color: white;
+    opacity: 0.7;
+}
+
 .btn-contacto{
     background-color:#4ff4e3;
     border-radius: 50px;
@@ -171,7 +180,7 @@ h1{
     transition: 0.2s;
 }
 
-.logo:hover{
+.logos:hover{
     border: solid 4px #13d6c3;
     color: #13d6c3;
     box-shadow: 0 10px 10px 0 rgb(134 134 134 / 50%);
