@@ -46,15 +46,6 @@ a{
     text-decoration-line: none;
 }
 
-img{
-    transition: 0.2s;
-}
-
-img:hover{
-    background-color: white;
-    opacity: 0.7;
-}
-
 .btn-contacto{
     background-color:#4ff4e3;
     border-radius: 50px;
