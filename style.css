@@ -127,10 +127,10 @@ h1{
     padding-bottom: 30px;
 }
 
-.titulo-h2{
-    color: #13d6c3;
+h2{
+    color: #0b379b;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
     margin-top: 100px;
     margin-bottom: 20px;
@@ -220,8 +220,8 @@ h1{
 }
 
 .proyectos{
-    width: 360px;
-    height: 360px;
+    width: 350px;
+    height: 320px;
     background-color: white;
     border-radius: 0.5em;
     margin: 10px;
@@ -234,4 +234,69 @@ h1{
     justify-content: space-evenly;
     align-items: center;
     transition: 0.2s;
+}
+
+.contenedor-contacto{
+    height: 1000;
+    background-color:#13d6c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-informacion{
+    width: 1100px;
+    height: 600px;
+    border-radius: 1em;
+    background-color: white;
+    margin: 50px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    
+}
+
+.contactame{
+    width: 350px;
+    margin: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.escribime{
+    width: 400px;
+    margin: 40px;
+    padding-left: 60px;
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-nom-ape{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-mail{
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.form-msj{
+    width: 350px;
+}
+
+.contenedor-footer{
+    background-color:rgb(242, 242, 242);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
