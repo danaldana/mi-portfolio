@@ -282,15 +282,18 @@ h2{
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 20px;
+    background-color: darkgoldenrod;
 }
 
 .form-mail{
     width: 350px;
     margin-bottom: 20px;
+    background-color: cyan;
 }
 
 .form-msj{
     width: 350px;
+    background-color: crimson;
 }
 
 .contenedor-footer{
