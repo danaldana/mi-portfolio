@@ -8,7 +8,7 @@
     text-rendering: optimizeLegibility;
 }
 
-/* Header */
+/* BARRA NAV */
 
 header{
     width: 100%;
@@ -63,6 +63,8 @@ a{
     background-color: rgb(127, 250, 238);
     color: rgb(199, 198, 198);
 }
+
+/* ----- HOLA ----- */
 
 #section{
     width: 100%;
@@ -136,6 +138,7 @@ h2{
     margin-bottom: 20px;
 }
 
+/* ----- CONOCIMIENTOS ----- */
 
 .contenedor-conocimientos{
     height: 900px;
@@ -177,6 +180,8 @@ h2{
     box-shadow: 0 10px 10px 0 rgb(134 134 134 / 50%);
 }
 
+/* ----- CITA ----- */
+
 .contenedor-frase{
     background-color: #13d6c3;
     height: 600px;
@@ -201,6 +206,8 @@ h2{
     color: white;
     margin-top: 15px;
 }
+
+/* ----- PROYECTOS ----- */
 
 .contenedor-proyectos{
     height: 1500px;
@@ -235,6 +242,8 @@ h2{
     align-items: center;
     transition: 0.2s;
 }
+
+/* ----- CONTACTO ----- */
 
 .contenedor-contacto{
     height: 1000;
@@ -278,13 +287,14 @@ h2{
 
 .icon{
     display: flex;
-    margin-right: 20px;
+    margin: 0 20px 0 0;
     color: #FE4B33;
     font-size: 1.2rem;
 }
 
+/* ----- FORMULARIO ----- */
+
 .escribime{
-    background-color: tomato;
     width: 400px;
     margin: 40px;
     padding-left: 60px;
@@ -320,10 +330,40 @@ textarea{
     border-radius: 1em;
 }
 
+/* ----- FOOTER ----- */
+
+.barra-nav-footer{
+    display: inline;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #0b379b;
+    transition: 0.3s;
+}
+
+.barra-nav-footer:hover{
+    color: lightgray;
+}
+
 .contenedor-footer{
     background-color:rgb(242, 242, 242);
-    height: 200px;
+    height: 300px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.ul-contacto-footer{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 0 30px 0;
+}
+
+.icon-foot{
+    color: #0b379b;
+    font-size: 2rem;
+}
+
+.foot-margin{
+    margin: 0 20px 0 0;
 }
