@@ -28,16 +28,16 @@ ul{
     list-style: none;
 }
 
-li{
+.barra-nav{
     display: inline;
     text-align: center;
     margin: 0 50px 0 0;
-    font-size: 17px;
+    font-size: 1rem;
     color: gray;
     transition: 0.3s;
 }
 
-li:hover{
+.barra-nav:hover{
     color: lightgray;
 }
 
@@ -49,7 +49,7 @@ a{
 .btn-contacto{
     background-color:#4ff4e3;
     border-radius: 1em;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 400;
     height: 40px;
     width: 150px;
@@ -89,8 +89,8 @@ a{
 
 .btn-loquehago{
     background-color:#fe4b33;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 600;
     color: white;
     height: 50px;
     width: 200px;
@@ -107,7 +107,7 @@ a{
 
 .hola{
     color: #0b379b;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 900;
 }
 
@@ -115,13 +115,13 @@ h1{
     color: #0b379b;
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 60px;
+    font-size: 3.5rem;
 }
 
 .texto-corrido{
     color: gray;
     font-family:'Montserrat';
-    font-size: 23px;
+    font-size: 1.3rem;
     font-weight: 400;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -130,7 +130,7 @@ h1{
 h2{
     color: #0b379b;
     text-align: center;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 900;
     margin-top: 100px;
     margin-bottom: 20px;
@@ -162,7 +162,7 @@ h2{
     margin: 10px;
     padding: 10px;
     color:#0b379b;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
     display: flex;
     flex-direction: column-reverse;
@@ -189,7 +189,7 @@ h2{
 .frase{
     font-weight: 600;
     font-style: italic;
-    font-size: 30px;
+    font-size: 2rem;
     color: white;
     text-align: center;
     margin: 40px;
@@ -197,7 +197,7 @@ h2{
 
 .autor{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 2rem;
     color: white;
     margin-top: 15px;
 }
@@ -253,20 +253,38 @@ h2{
     display: flex;
     justify-content:space-around;
     flex-direction: row;
-    
 }
 
 .contactame{
-    width: 350px;
+    width: 400px;
     margin: 40px;
     padding-left: 40px;
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     align-items: flex-start;
 }
 
+.ul-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.li-contacto{
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.icon{
+    display: flex;
+    margin-right: 20px;
+    color: #FE4B33;
+    font-size: 1.2rem;
+}
+
 .escribime{
+    background-color: tomato;
     width: 400px;
     margin: 40px;
     padding-left: 60px;
@@ -277,23 +295,29 @@ h2{
 }
 
 .form-nom-ape{
-    width: 350px;
+    width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
-    background-color: darkgoldenrod;
 }
 
-.form-mail{
-    width: 350px;
+.form-control{
+    width: 400px;
     margin-bottom: 20px;
-    background-color: cyan;
 }
 
-.form-msj{
-    width: 350px;
-    background-color: crimson;
+label {
+    display: block;
+    font-weight: 600;
+}
+
+input{
+    border-radius: 1em;
+    height: 2.5em;
+}
+
+textarea{
+    border-radius: 1em;
 }
 
 .contenedor-footer{
