@@ -59,14 +59,14 @@
         </section>
         <!-- fin sección-conocimientos -->
 
-        <!-- inicio sección-frase -->
-        <section class="contenedor-frase">
+        <!-- inicio sección-cita -->
+        <section class="contenedor-cita">
             <img height= "110px" src="assets/images/quotes.png" alt="quote">
-            <p class="frase">"La finalidad de la vida no es prosperar sino transformarse; <br>
+            <p class="cita">"La finalidad de la vida no es prosperar sino transformarse; <br>
             cuando uno se lanza a lo desconocido se salva."</p>
             <p class="autor">Elena Poniatowska</p>
         </section>
-        <!-- fin sección-frase -->
+        <!-- fin sección-cita -->
 
         <!-- inicio sección-proyectos -->
         <section class="contenedor-proyectos">
@@ -75,7 +75,7 @@
             <p class="texto-corrido">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
             Ullam reiciendis maiores est atque nobis possimus modi temporibus.</p>
             <div class="contenedor-imagenes">
-                <div class="proyectos">Portfolio<img height= "140px" src="assets/images/portfolio.png" alt=""></div> 
+                <div class="proyectos">Portfolio<img height= "140px" src="assets/images/portfolio.png" alt=""></a></div> 
                 <div class="proyectos">Generador de memes<img height= "140px" src="assets/images/generador-memes.jpeg" alt=""></div> 
                 <div class="proyectos">Match 3<img height= "140px" src="assets/images/match-3.png" alt=""></div>
                 <div class="proyectos">Controlador de gastos<img height= "140px" src="assets/images/match-3.png" alt=""></div> 
@@ -96,14 +96,14 @@
                     <p>Estos son algunos de los medios por los cuales podes contactarte conmigo y saber más de mi.</p>
                 <!-- redes -->
                     <ul class="ul-contacto">
-                        <!-- behance -->
-                        <li class="li-contacto"><i class="fab fa-behance icon"><a href="https://behance.net/danaldana"></i>Behance</a></li>
                         <!-- github -->
-                        <li class="li-contacto"><i class="fab fa-github-alt icon"><a href="https://github.com/danaldana"></i>Github</a></li>
+                        <li class="li-contacto"><a href="https://github.com/danaldana"><i class="fab fa-github-alt icon"></i>Github</a></li>
                         <!-- linkedin -->
-                        <li class="li-contacto"><i class="fab fa-linkedin-in icon"><a href="https://www.linkedin.com/in/aldana-rigueras-907443201/"></i>Linkedin</a></li>
+                        <li class="li-contacto"><a href="https://www.linkedin.com/in/aldana-rigueras-907443201/"><i class="fab fa-linkedin-in icon"></i>Linkedin</a></li>
+                        <!-- behance -->
+                        <li class="li-contacto"><a href="https://behance.net/danaldana"><i class="fab fa-behance icon"></i>Behance</a></li>
                         <!-- mail -->
-                        <li class="li-contacto"><i class="fas fa-envelope icon"><a href="https://github.com/danaldana"></i>aldana.rig@hotmail.com</a></li>
+                        <li class="li-contacto"><a href="https://github.com/danaldana"><i class="fas fa-envelope icon"></i>aldana.rig@hotmail.com</a></li>
                     </ul>
                 </div>
 
@@ -113,25 +113,25 @@
                     <form action="">
                         <div class="form-nom-ape form-control">
                             <div>
-                                <label for=""> Nombre * <input type="text" name="nombre" size="20" maxlength="40">
+                                <label for=""> Nombre * <input type="text" id="nombre" maxlength="30"size="20"
+                                placeholder="tu nombre"/>
                                 </label>
                             </div>
                             <div>
-                                <label for=""> Apellido * <input type="text" name="apellido" size="20" maxlength="100">
+                                <label for=""> Apellido * <input type="text" id="apellido" maxlength="30" size="20"
+                                placeholder="tu apellido"/>
                                 </label>
                             </div>
                         </div>
                         <div class="form-control">
                             <label for="">Email *
                             </label>
-                            <input type="mail" size="48">
+                            <input type="email"id="email" maxlength="30" size="20" placeholder="tumail@gmail.com" />
                         </div>
                         <div class="form-control">
                             <label>Mensaje * </label>
-                            <textarea name="comments" id="" cols="40" rows="7" size="120">
-                            Escribe tu comentario...
-                            </textarea> <br>
-                            <input type="submit" name="enviar" value="Enviar">
+                            <textarea id="comentarios" cols="50" rows="4" maxlength="1000" placeholder="Escribí tu mensaje..."></textarea> <br>
+                            <input class="btn-contacto"type="submit" name="enviar" value="Enviar">
                         </div>
                     </form>
                 </div>
@@ -154,14 +154,14 @@
         </nav>
         <div>
             <ul class="ul-contacto-footer">
-                <!-- behance -->
-                <li><i class="fab fa-behance-square icon-foot foot-margin"><a href="https://behance.net/danaldana"></i></a></li>
                 <!-- github -->
-                <li><i class="fab fa-github-square icon-foot foot-margin"><a href="https://github.com/danaldana"></i></a></li>
+                <li><a href="https://github.com/danaldana"><i class="fab fa-github-square icon-foot foot-margin"></i></a></li>
                 <!-- linkedin -->
-                <li><i class="fab fa-linkedin icon-foot foot-margin"><a href="https://www.linkedin.com/in/aldana-rigueras-907443201/"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/aldana-rigueras-907443201/"><i class="fab fa-linkedin icon-foot foot-margin"></i></a></li>
+                <!-- behance -->
+                <li><a href="https://behance.net/danaldana"><i class="fab fa-behance-square icon-foot foot-margin"></i></a></li>
                 <!-- mail -->
-                <li><i class="fas fa-envelope-square icon-foot"><a href="https://github.com/danaldana"></i></a></li>
+                <li><a href="https://github.com/danaldana"><i class="fas fa-envelope-square icon-foot"></i></a></li>
             </ul>
         </div>
         <div>

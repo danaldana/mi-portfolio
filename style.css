@@ -8,6 +8,10 @@
     text-rendering: optimizeLegibility;
 }
 
+body{
+    box-shadow: 40px 0 0 40px rgb(134 134 134/25%);
+}
+
 /* BARRA NAV */
 
 header{
@@ -182,7 +186,7 @@ h2{
 
 /* ----- CITA ----- */
 
-.contenedor-frase{
+.contenedor-cita{
     background-color: #13d6c3;
     height: 600px;
     display: flex;
@@ -191,7 +195,7 @@ h2{
     justify-content: center;
 }
 
-.frase{
+.cita{
     font-weight: 600;
     font-style: italic;
     font-size: 2rem;
@@ -243,6 +247,12 @@ h2{
     transition: 0.2s;
 }
 
+.proyectos:hover{
+    border: solid 4px #fe4b33;
+    color: #fe4b33;
+    box-shadow: 0 10px 10px 0 rgb(134 134 134 / 50%);
+}
+
 /* ----- CONTACTO ----- */
 
 .contenedor-contacto{
@@ -286,10 +296,14 @@ h2{
 }
 
 .icon{
-    display: flex;
     margin: 0 20px 0 0;
-    color: #FE4B33;
+    color: #fe4b33;
     font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+.icon:hover{
+    color: lightgray;
 }
 
 /* ----- FORMULARIO ----- */
@@ -321,13 +335,15 @@ label {
     font-weight: 600;
 }
 
-input{
-    border-radius: 1em;
-    height: 2.5em;
-}
-
-textarea{
-    border-radius: 1em;
+input,
+textarea {
+border: 0;
+border-radius: 1em;
+background-color: #F2F2F2;
+font-size: 1rem;
+padding: 10px 10px;
+width: 100%;
+outline: none;
 }
 
 /* ----- FOOTER ----- */
@@ -336,7 +352,7 @@ textarea{
     display: inline;
     text-align: center;
     font-size: 0.9rem;
-    color: #0b379b;
+    color: #13d6c3;
     transition: 0.3s;
 }
 
@@ -361,6 +377,12 @@ textarea{
 
 .icon-foot{
     color: #0b379b;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.icon-foot:hover{
+    color: lightgray;
     font-size: 2rem;
 }
 
