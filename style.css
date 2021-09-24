@@ -8,18 +8,14 @@
     text-rendering: optimizeLegibility;
 }
 
-body{
-    box-shadow: 40px 0 0 40px rgb(134 134 134/25%);
-}
-
 /* BARRA NAV */
 
 header{
     width: 100%;
-    height: 10%;
+    height: 100px;
     background-color: white;
     box-shadow: 0 0 40px 0 rgb(134 134 134/25%);
-    padding-right: 150px;
+    padding-right: 9em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -70,7 +66,7 @@ a{
 
 /* ----- HOLA ----- */
 
-#section{
+section{
     width: 100%;
     height: 750px;
     display: flex;
@@ -104,11 +100,16 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0.5em;
     transition: 0.3s;
 }
 
 .btn-loquehago:hover{
     background-color: #fd7361;
+}
+
+.img-about{
+    height: 400px;
 }
 
 .hola{
@@ -119,18 +120,23 @@ a{
 
 h1{
     color: #0b379b;
-    font-family: 'Montserrat';
     font-weight: 900;
     font-size: 3.5rem;
 }
 
 .texto-corrido{
     color: gray;
-    font-family:'Montserrat';
     font-size: 1.3rem;
     font-weight: 400;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.tit-align{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 h2{
@@ -138,8 +144,7 @@ h2{
     text-align: center;
     font-size: 3rem;
     font-weight: 900;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom:1em;
 }
 
 /* ----- CONOCIMIENTOS ----- */
@@ -161,13 +166,14 @@ h2{
     justify-content: space-evenly;
 }
 
-.logos{
+.logos{ 
+/* CONSULTAR POR PORCENTAJE DE LOS CONTENEDORES */
     width: 260px;
     height: 230px;
     background-color: white;
     border-radius: 0.5em;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.5em;
+    padding: 0.5em;
     color:#0b379b;
     font-size: 1.2rem;
     font-weight: 600;
@@ -201,14 +207,13 @@ h2{
     font-size: 2rem;
     color: white;
     text-align: center;
-    margin: 40px;
+    margin: 1.5em 0 1.5em 0;
 }
 
 .autor{
     font-weight: 800;
     font-size: 2rem;
     color: white;
-    margin-top: 15px;
 }
 
 /* ----- PROYECTOS ----- */
@@ -230,15 +235,15 @@ h2{
     justify-content: space-between;
 }
 
-.proyectos{
+.proyectos{ /* CONSULTAR POR PORCENTAJE DE LOS CONTENEDORES */
     width: 350px;
     height: 320px;
     background-color: white;
     border-radius: 0.5em;
-    margin: 10px;
-    padding: 10px;
+    margin: 0.5em;
+    padding: 0.5em;
     color:#0b379b;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600;
     display: flex;
     flex-direction: column-reverse;
@@ -256,7 +261,7 @@ h2{
 /* ----- CONTACTO ----- */
 
 .contenedor-contacto{
-    height: 1000;
+    height: 1000px;
     background-color:#13d6c3;
     display: flex;
     align-items: center;
@@ -268,7 +273,7 @@ h2{
     height: 600px;
     border-radius: 1em;
     background-color: white;
-    margin: 50px;
+    margin: 3em;
     display: flex;
     justify-content:space-around;
     flex-direction: row;
@@ -276,8 +281,8 @@ h2{
 
 .contactame{
     width: 400px;
-    margin: 40px;
-    padding-left: 40px;
+    margin: 2em;
+    padding-left: 2em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -287,11 +292,11 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .li-contacto{
-    margin-bottom: 20px;
+    margin-bottom: 1.5em;
     font-size: 1rem;
 }
 
@@ -310,8 +315,8 @@ h2{
 
 .escribime{
     width: 400px;
-    margin: 40px;
-    padding-left: 60px;
+    margin: 2em;
+    padding-left: 3em;
     display: flex;
     flex-grow: 2;
     flex-direction: column;
@@ -327,21 +332,21 @@ h2{
 
 .form-control{
     width: 400px;
-    margin-bottom: 20px;
+    margin-bottom: 1.2em;
 }
 
-label {
+label{
     display: block;
     font-weight: 600;
 }
 
 input,
-textarea {
+textarea{
 border: 0;
 border-radius: 1em;
 background-color: #F2F2F2;
 font-size: 1rem;
-padding: 10px 10px;
+padding: 1em 1em;
 width: 100%;
 outline: none;
 }
@@ -372,7 +377,7 @@ outline: none;
 .ul-contacto-footer{
     display: flex;
     flex-direction: row;
-    margin: 40px 0 30px 0;
+    margin: 2.5em 0 3em 0;
 }
 
 .icon-foot{
@@ -383,9 +388,54 @@ outline: none;
 
 .icon-foot:hover{
     color: lightgray;
-    font-size: 2rem;
 }
 
 .foot-margin{
-    margin: 0 20px 0 0;
+    margin: 0 1em 0 0;
+}
+
+
+/* ----- MEDIA QUERIES ----- */
+
+/* header */
+
+@media (max-width: 1100px){
+    header{
+    display: none;
+    }
+
+    .nav{
+    display: none;
+    }
+}
+
+/* Lo que hago */
+
+@media (max-width: 1100px){
+    .contenedor-about {
+        flex-direction: column;
+        padding-top: 900px;
+        padding-bottom: 400px;
+        height: 1600px;
+    }
+
+    .caja-texto-about{
+        align-items: center;
+    }
+
+    h1, .texto-corrido{
+        text-align: center;
+    }
+
+    .tit-align{
+        flex-direction: column;
+    }
+
+    .img-about{
+        margin-top: 6em;
+    }
+
+    .contenedor-conocimientos{
+        height: 2700px;
+    }
 }
