@@ -48,9 +48,10 @@ a{
 
 .btn-contacto{
     background-color:#4ff4e3;
+    color: white;
     border-radius: 1em;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     height: 40px;
     width: 150px;
     display: flex;
@@ -61,7 +62,8 @@ a{
 
 .btn-contacto:hover{
     background-color: rgb(127, 250, 238);
-    color: rgb(199, 198, 198);
+    color: gray;
+    font-weight: 400;
 }
 
 /* ----- HOLA ----- */
@@ -198,18 +200,23 @@ h2{
 .contenedor-cita{
     background-color: #13d6c3;
     width: 100%;
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 8em;
+    padding-bottom: 8em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.icon-cita{
+    color: white;
+    font-size: 3rem;
+}
+
 .cita{
     font-weight: 600;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     text-align: center;
     margin: 1.5em 0 1.5em 0;
