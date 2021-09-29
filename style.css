@@ -33,12 +33,17 @@ ul{
     text-align: center;
     margin: 0 50px 0 0;
     font-size: 1rem;
-    color: gray;
+    color: rgb(69, 69, 69);
     transition: 0.3s;
 }
 
 .barra-nav:hover{
     color: lightgray;
+}
+
+.barra-nav:active{
+    color: #0b379b;
+    font-weight: 400;
 }
 
 a{
@@ -62,8 +67,12 @@ a{
 
 .btn-contacto:hover{
     background-color: rgb(127, 250, 238);
-    color: gray;
-    font-weight: 400;
+}
+
+.btn-contacto:active{
+    background-color: white;
+    color: #4ff4e3;
+    border: solid 2px #4ff4e3;
 }
 
 /* ----- HOLA ----- */
@@ -111,6 +120,12 @@ a{
     background-color: #fd7361;
 }
 
+.btn-loquehago:active{
+    background-color: white;
+    color: #fd7361;
+    border: solid 2px #fd7361;
+}
+
 .img-about{
     height: 400px;
 }
@@ -128,9 +143,8 @@ h1{
 }
 
 .texto-corrido{
-    color: gray;
+    color: rgb(69, 69, 69);
     font-size: 1.3rem;
-    font-weight: 400;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
@@ -179,9 +193,9 @@ h2{
     border-radius: 0.5em;
     margin: 0.5em;
     padding: 0.5em;
-    color:#0b379b;
     font-size: 1.2rem;
     font-weight: 600;
+    color:#0b379b;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-evenly;
@@ -303,6 +317,10 @@ h2{
     align-items: flex-start;
 }
 
+.contacto{
+    padding-bottom: 1.5em;
+}
+
 .ul-contacto{
     display: flex;
     flex-direction: column;
@@ -360,6 +378,7 @@ textarea{
 border: 0;
 border-radius: 1em;
 background-color: #F2F2F2;
+align-items: center;
 font-size: 1rem;
 padding: 1em 1em;
 width: 100%;
@@ -378,6 +397,10 @@ outline: none;
 
 .barra-nav-footer:hover{
     color: lightgray;
+}
+
+.barra-nav-footer:active{
+    color: #0b379b;
 }
 
 .contenedor-footer{
