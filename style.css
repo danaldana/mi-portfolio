@@ -66,13 +66,15 @@ a{
 }
 
 .btn-contacto:hover{
-    background-color: rgb(127, 250, 238);
+    background-color: white;
+    color: #4ff4e3;
+    border: solid 2.5px #4ff4e3;
 }
 
 .btn-contacto:active{
     background-color: white;
-    color: #4ff4e3;
-    border: solid 2px #4ff4e3;
+    color: #0b379b;
+    border: solid 2.5px #0b379b;
 }
 
 /* ----- HOLA ----- */
@@ -117,13 +119,15 @@ a{
 }
 
 .btn-loquehago:hover{
-    background-color: #fd7361;
+    background-color: white;
+    color: #fd7361;
+    border: solid 3px #fd7361;
 }
 
 .btn-loquehago:active{
     background-color: white;
-    color: #fd7361;
-    border: solid 2px #fd7361;
+    color: #0b379b;
+    border: solid 3px #0b379b;
 }
 
 .img-about{
@@ -477,13 +481,23 @@ outline: none;
     }
 }
 
+/* Textos */
+
+@media (max-width: 650px){
+    .texto-corrido{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+
 /* Cita */
 
 @media (max-width: 650px){
     .cita{
         font-size: 1.3rem;
-        padding-left: 0.3em;
-        padding-right: 0.3em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     
     .autor{
