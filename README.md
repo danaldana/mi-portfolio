@@ -1,10 +1,10 @@
-## Mi portfolio
-*El presente proyecto fue realizado en mi formación como desarrolladora web front-end.*
+## ¡HOLA! 👋 Bienvenidos a mi portfolio
+El proyecto fue realizado como entrega final del módulo 1 en mi formación como desarrolladora web front-end en ADA (https://adaitw.org/).
 
-### Deploy
+### 🖥️ Deploy
 https://danaldana.github.io/portfolio/
 
-### Funcionalidades
+### 💡 Funcionalidades
 
 *El **portfolio** cuenta con:*
 
@@ -17,7 +17,7 @@ https://danaldana.github.io/portfolio/
 * Footer con links de navegación e íconos de contacto
 * Diseño responsivo
 
-### Tecnologías utilizadas
+### ⚙️ Tecnologías utilizadas
 
 * HTML 5
 * CSS 3
