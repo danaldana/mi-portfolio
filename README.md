@@ -1,12 +1,12 @@
 ## Mi portfolio
-* El presente proyecto fue realizado en mi formación como desarrolladora web front-end. *
+*El presente proyecto fue realizado en mi formación como desarrolladora web front-end.*
 
 ### Deploy
 https://danaldana.github.io/portfolio/
 
 ### Funcionalidades
 
-* El **portfolio** cuenta con: *
+*El **portfolio** cuenta con:*
 
 * Header con links de navegación
 * Sección de presentación
