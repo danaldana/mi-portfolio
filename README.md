@@ -1,12 +1,12 @@
-##Mi portfolio
-*El presente proyecto fue realizado en mi formación como desarrolladora web front-end.*
+## Mi portfolio
+* El presente proyecto fue realizado en mi formación como desarrolladora web front-end. *
 
-###Deploy
+### Deploy
 https://danaldana.github.io/portfolio/
 
-###Funcionalidades
+### Funcionalidades
 
-*El **portfolio** cuenta con:*
+* El **portfolio** cuenta con: *
 
 * Header con links de navegación
 * Sección de presentación
@@ -17,7 +17,7 @@ https://danaldana.github.io/portfolio/
 * Footer con links de navegación e íconos de contacto
 * Diseño responsivo
 
-###Tecnologías utilizadas
+### Tecnologías utilizadas
 
-*HTML 5
-*CSS 3
+* HTML 5
+* CSS 3
