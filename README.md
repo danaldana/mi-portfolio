@@ -1,7 +1,7 @@
-## ¡HOLA! 👋 Bienvenidos a mi portfolio
+## **¡HOLA!** 👋 Bienvenidos a mi portfolio
 El proyecto fue realizado como entrega final del módulo 1 en mi formación como desarrolladora web front-end en ADA (https://adaitw.org/).
 
-### 🖥️ Deploy
+### Deploy
 https://danaldana.github.io/portfolio/
 
 ### 💡 Funcionalidades
