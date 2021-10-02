@@ -22,4 +22,4 @@ https://danaldana.github.io/portfolio/
 * HTML 5
 * CSS 3
 
-#### con ❤️ por Aldana Rigueras 😊
+*Hecho por Aldana Rigueras* 😊
