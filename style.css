@@ -8,18 +8,30 @@
     font-family: Montserrat;
 }
 
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
 /* BARRA NAV */
 
 header{
     width: 100%;
     height: auto;
     background-color: white;
-    box-shadow: 0 0 40px 0 rgb(134 134 134/25%);
     padding: 1.3em 9em 1.3em 0em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     position: fixed;
+    box-shadow: 0 0 40px 0 rgb(134 134 134/25%);
 }
 
 ul{
@@ -118,8 +130,8 @@ a{
     width: 200px;
     border-radius: 1em;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-top: 0.5em;
     transition: 0.3s;
 }
@@ -188,7 +200,8 @@ h3{
 
 .contenedor-logos{
     margin-top: 1em;
-    width: 60%;
+    max-width: 60%;
+    min-width: 60%;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -370,9 +383,6 @@ h3{
 .form-control{
     width: 400px;
     margin-bottom: 1.2em;
-}
-
-label{
     display: block;
     font-weight: 600;
 }
@@ -384,9 +394,24 @@ border-radius: 1em;
 background-color: #F2F2F2;
 align-items: center;
 font-size: 1rem;
-padding: 1em 1em;
+padding: 1em 1em 1em 1em;
+
 width: 100%;
 outline: none;
+}
+
+.btn-form{
+    background-color: #4ff4e3;
+    color: white;
+    border-radius: 1em;
+    font-size: 1rem;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
 }
 
 /* ----- FOOTER ----- */
@@ -439,7 +464,7 @@ outline: none;
 
 /* ----- MEDIA QUERIES ----- */
 
-/* Header */
+/* MQ-Header */
 
 @media (max-width: 1100px){
     header{
@@ -451,7 +476,7 @@ outline: none;
     }
 }
 
-/* About */
+/* MQ-About */
 
 @media (max-width: 1100px){
     .contenedor-about {
@@ -483,11 +508,7 @@ outline: none;
     }
 }
 
-/* Textos */
-
-
-
-/* Cita */
+/* MQ-Cita */
 
 @media (max-width: 1100px){
     .cita{
@@ -501,7 +522,7 @@ outline: none;
     }
 }
 
-/* Contacto */
+/* MQ-Contacto */
 
 @media (max-width: 1100px){
     .contenedor-informacion{
@@ -521,10 +542,3 @@ outline: none;
     }
 }
 
-/* Footer */
-
-@media (max-width: 1100px){
-    .barra-nav-footer{
-        display: none;
-    }   
-}
